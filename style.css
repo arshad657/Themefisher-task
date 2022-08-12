@@ -1,0 +1,148 @@
+/* Common classes  */
+.bg-f9{
+  background-color: #F9F9F9;
+}
+.color-22{
+  color: #222222;
+}
+.color-88{
+  color: #888888;
+}
+.font-noticia{
+  font-family: 'Noticia Text';
+}
+.font-roboto{
+  font-family: "Roboto";
+}
+.color-red{
+  color: #FF5733;
+}
+.color-77{
+  color: #777777;
+}
+.color-55{
+  color: #555555;
+}
+
+/* Home classes  */
+.home{
+  background-image: 
+        url('/images/Rectangle\ 807.png'), 
+        url('/images/Rectangle\ 813.png'),
+        url('/images/Rectangle\ 814.png'), 
+        url('/images/Rectangle\ 815.png'), 
+        url('/images/Rectangle\ 809.png'),
+        url('/images/Rectangle\ 806.png'), 
+        url('/images/Rectangle\ 810.png');
+  background-position: 
+        228px 145px,
+        1500px 430px,
+        315px 507px,
+        1400px 167px,
+        right 30px,
+        left 389px,
+        right bottom ;
+  background-repeat: no-repeat;
+}
+.home-main div{
+  width: 562px;
+}
+.home-main button{
+  background-color: #FF5733;
+}
+.home-footer > img{
+  margin-right: 80px;
+}
+
+/* Global section classes  */
+.global-sec article{
+  width: 790px;
+  height: 365px;
+}
+
+.global-sec h1{
+  width: 526px;
+  margin-left: -170px;
+}
+
+.global-sec p{
+  width: 538px;
+  margin-right: -90px;
+}
+
+/* Providing Services section  */
+.cards{
+  width: 1370px;
+  height: 265px;  
+}
+.card{
+  box-shadow: 0px 15px 55px rgba(0, 0, 0, 0.06);
+  margin-top: -210px;
+  height: 390px;
+  width: 370px;
+}
+
+/* Experience section  */
+.first-part{
+  width: 495px;
+}
+.exp{
+  width: 452px
+}
+.exp-des{
+  width: 485px;
+} 
+.exp-card{
+  width: 285px;
+}
+
+.second-part{
+  width: 540px;
+}
+
+/* testimonial section */
+.box{
+  width: 1300px;
+  height: 685px;
+}
+.testimonial-des{
+  width: 538px;
+}
+
+/* Projects Section  */
+.projects{
+  width: 1170px;
+}
+.projects .project1,.project2,.project3,.project4{
+  height: 570px;
+  width: 570px;
+}
+.project1{
+  background-image: linear-gradient(360deg,
+                                  rgba(0, 0, 0, 0.8) 8.73%,
+                                  rgba(196, 196, 196, 0) 54.45%),
+                                    url('/images/project1.png');
+}
+.project2{
+  background-image: linear-gradient(360deg,
+                                  rgba(0, 0, 0, 0.8) 8.73%,
+                                  rgba(196, 196, 196, 0) 54.45%),
+                                    url('/images/project2.png');
+}
+.project3{
+  background-image: linear-gradient(360deg,
+                                  rgba(0, 0, 0, 0.8) 8.73%,
+                                  rgba(196, 196, 196, 0) 54.45%),
+                                    url('/images/project3.png');
+}
+.project4{
+  background-image: linear-gradient(360deg,
+                                  rgba(0, 0, 0, 0.8) 8.73%,
+                                  rgba(196, 196, 196, 0) 54.45%),
+                                    url('/images/project4.png');
+}
+
+.projects h2{
+    margin-top: 473px;
+}
+
